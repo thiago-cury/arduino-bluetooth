@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Bluetooth</string>
+    <string name="app_title">Arduino Bluetooth</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- MainActivity Java -->
+    <string name="msg_erro_bluetooth_desativado">"Bluetooth desativado!"</string>
+    <string name="msg_erro_bluetooth_encontrado_nao_coincidem">Bluetooth\'s encontrado não coincidem!</string>
+    <string name="msg_erro_bluetooth_pareado_nao_coincidem">Bluetooth\'s pareado não coincidem!</string>
+    <string name="msg_erro_gps">Esse app necessita de permissão para acessar a Localização do dispositivo! O bluetooth só funciona com o GPS ativo!</string>
+    <string name="msg_erro_aceitar_permissoes_gps">Você precisa aceitar as permissões!</string>
+    <string name="msg_iniciando_busca_dispositivos">Iniciando busca por dispositivos</string>
+
+    <!-- MainActivity XML -->
+    <string name="tv_ma_bluetooth_pareados">Bluetooth Pareados</string>
+    <string name="tv_ma_bluetooth_encontrados">Bluetooth Encontrados</string>
+
+    <!-- Tela Principal Java -->
+    <string name="et_tp_texto_que_sera_enviado">Digite o texto</string>
+    <string name="ch_tp_on_marcado">on</string>
+    <string name="ch_tp_off_desmarcado">off</string>
+    <string name="msg_erro_texto_que_sera_enviado">Você não digitou nenhum texto para ser enviado!</string>
+    <string name="msg_erro_dispositivo_sem_bluetooth">Seu dispositivo não possui bluetooth!</string>
+    <string name="msg_erro_fazer_conexao">Erro ao fazer conexão!</string>
+    <string name="msg_erro_enviar_dados">Falha ao enviar dados!</string>
+    <string name="msg_aviso_nao_esta_conectado">Você não está conectado</string>
+    <string name="msg_sucesso_conexao_bem_sucedida">A conexão com o dispositivo foi bem sucedida!</string>
+    <string name="msg_sucesso_comando_enviado">Comando enviado com sucesso!</string>
+
+    <!-- Tela Principal XML -->
+    <string name="tv_tp_texto_que_sera_enviado">Digite o texto que deseja enviar</string>
+    <string name="tv_tp_enviar_vogal_min">Enviar Vogal Minúscula</string>
+    <string name="tv_tp_enviar_vogal_mai">Enviar Vogal Maiúscula</string>
+    <string name="btn_tp_enviar_texto">Enviar Texto</string>
+    <string name="btn_tp_enviar_vogal_min">Enviar Minúscula</string>
+    <string name="btn_tp_enviar_vogal_mai">Enviar Maiúscula</string>
+    <string name="tv_tp_comando_rele">Controle de Relés</string>
+    <string name="btn_tp_enviar_comando_rele">Enviar Comando relé</string>
+
+    <string name="tv_ma_aviso">Para se conectar ao dispositivo, clique em cima do MAC Address em dispositivos Pareados ou Encontrados.\nNão esqueça de escolher qual será a senha de conexão.</string>
+    <string name="tv_ma_senha_padrao">Digite/Escolha a senha para efetuar a conexão</string>
+    <string name="rb_ma_1234">1234</string>
+    <string name="rb_ma_0000">0000</string>
+    <string name="rb_ma_sem_senha">Sem senha</string>
+    <string name="rb_ma_outra">Outra senha</string>
+    <string name="et_ma_outra_senha">Digite a senha</string>
+
+    <!-- Tela Sobre -->
+    <string name="so_nomeapp">App Arduino Bluetooth</string>
+    <string name="so_versao">Versão 1.0</string>
+    <string name="so_desenvolvedor">Desenvolvedor principal\nCluster - Thiago Cury"</string>
+    <string name="so_data">Ano 2017</string>
+    <string name="so_site">Site: www.thiagocury.eti.br</string>
+    <string name="so_contato">Contato: contato@thiagocury.eti.br</string>
+
+    <!-- Menu -->
+    <string name="menu_sobre">Sobre</string>
+
+    <!-- Array de Recursos -->
+    <string-array name="sp_vogais_min">
+        <item>a</item>
+        <item>e</item>
+        <item>i</item>
+        <item>o</item>
+        <item>u</item>
+    </string-array>
+
+    <string-array name="sp_vogais_mai">
+        <item>A</item>
+        <item>E</item>
+        <item>I</item>
+        <item>O</item>
+        <item>U</item>
+    </string-array>
+
+    <string-array name="sp_reles">
+        <item>r1</item>
+        <item>r2</item>
+        <item>r3</item>
+        <item>r4</item>
+        <item>r5</item>
+        <item>r6</item>
+        <item>r7</item>
+        <item>r8</item>
+        <item>r9</item>
+        <item>r10</item>
+        <item>r11</item>
+        <item>r12</item>
+        <item>r13</item>
+        <item>r14</item>
+        <item>r15</item>
+        <item>r16</item>
+    </string-array>
+</resources>

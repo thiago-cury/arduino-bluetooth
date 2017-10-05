@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Tela Sobre-->
+    <dimen name="sobre_largura">100dp</dimen>
+    <dimen name="sobre_altura">100dp</dimen>
+    <dimen name="espacamento">2dp</dimen>
+    <dimen name="esp_img">5dp</dimen>
+    <dimen name="width_cluster">200dp</dimen>
+    <dimen name="height_cluster">50dp</dimen>
+    <dimen name="marg_bottom_qi">10dp</dimen>
+    <dimen name="texto">15dp</dimen>
+
+</resources>

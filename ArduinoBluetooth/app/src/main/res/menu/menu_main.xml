@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="thiagocury.eti.br.arduinobluetooth.MainActivity">
+
+    <!--<item
+        android:id="@+id/menu_ligar"
+        android:orderInCategory="100"
+        android:title="Lig"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_desligar"
+        android:orderInCategory="200"
+        android:title="Des"
+        app:showAsAction="always" />-->
+
+    <item
+        android:id="@+id/menu_sobre"
+        android:orderInCategory="300"
+        android:title="@string/menu_sobre"
+        app:showAsAction="always" />
+</menu>
